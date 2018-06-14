@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - morte-instantanea
+  - coletavel
   layers:
   - Default
   - TransparentFX

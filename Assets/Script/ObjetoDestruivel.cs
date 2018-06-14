@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjetoDestruivel : MonoBehaviour {
 
-	private float alturaDopulo = 5;
+	private float alturaDopulo = 8;
 
 	private void OnCollisionEnter2D(Collision2D collision){
 		ControlaPersonagem personagem = collision.collider.

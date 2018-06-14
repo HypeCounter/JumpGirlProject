@@ -93,9 +93,12 @@ public class ControlaPersonagem : MonoBehaviour {
 		if(collider.CompareTag("morte-instantanea")){
 			Morreu();
 		}
-	} 
-	
-	private void Morreu(){
+	}
+
+
+
+
+    private void Morreu(){
 		rb.velocity = Vector2.zero;
 		anim.SetTrigger("morreu");
 		estaVivo = false;
